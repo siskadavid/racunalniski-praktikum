@@ -1,4 +1,4 @@
-# Računalniski praktikum
+# Računalniški praktikum
 
 CTRL + A - označi vse
 CTRL +  SHIFT + K - izbriše trenutno vrstico
