@@ -4,6 +4,7 @@
 # LaTeX
 *.aux
 *.bbl
+*.bib
 *.blg
 *.fdb_latexmk
 *.toc
@@ -11,6 +12,7 @@
 *.log
 *.out
 *.pyc
+*.toc
 *.synctex.gz
 
 # MacOS
