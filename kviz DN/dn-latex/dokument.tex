@@ -22,6 +22,8 @@
 \newtheorem{definicija}{Definicija}
 }
 
+\newcommand{\f}{\mathcal{F}}
+
 \begin{document}
 
 \maketitle
@@ -55,8 +57,8 @@ ki predstavlja naključno gibanje delcev v mediju.
     
     % Začetek definicije
 \begin{definicija}
-	    Slučajna spremenljivka $\tau$ na verjetnostnem prostoru ?? z vrednostmi v ??
-    je čas ustavljanja glede na filtracijo ??, če velja ??.
+	Slučajna spremenljivka $\tau$ na verjetnostnem prostoru $(\Omega, \f, \mathsf{P})$z vrednostmi v $\mathbb{R}^+$
+    je \emph{čas ustavljanja} glede na filtracijo $(\f_t)_{t\in T}$, če velja $\forall t \in T:\{\tau\le t\}\in \f_t$.
 \end{definicija}
     % Konec definicije
     
@@ -65,12 +67,12 @@ ki predstavlja naključno gibanje delcev v mediju.
     % Začetek izreka
 \begin{izrek}
 	Naj bo $\{B_t\}_{t \geq 0}$\label{thm:stopped_brownian} (standardno) Brownovo gibanje, $\tau$ čas ustavljanja glede na 
-    $(\mathcal{F}_t)_{t \geq 0}$ in naj velja $P[\tau<\infty]=1$.
+    $(\f_t)_{t \geq 0}$ in naj velja $\mathsf{P}[\tau<\infty]=1$.
     Potem je tudi proces:
     \[
     \hat{B} := \{B_{T+t} - B_T \mid t \geq 0\}
     \]
-    (standardno) Brownovo gibanje in neodvisen od ??.
+    (standardno) Brownovo gibanje in neodvisen od $\f_T$.
 \end{izrek}
     % Konec izreka
 
