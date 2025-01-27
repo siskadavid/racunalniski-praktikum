@@ -2,17 +2,16 @@
 .vscode/
 
 # LaTeX
-*.aux
-*.bbl
-*.blg
-*.fdb_latexmk
-*.toc
-*.fls
-*.log
-*.out
-*.pyc
-*.toc
-*.synctex.gz
+#*.aux
+#*.bbl
+#*.blg
+#*.fdb_latexmk
+#*.toc
+#*.fls
+#*.log
+#*.out
+#*.pyc
+#*.toc
 
 # MacOS
 __MACOSX
